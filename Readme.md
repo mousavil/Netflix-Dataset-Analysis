@@ -1,39 +1,58 @@
-# Netflix Dataset Analysis
 
-This project is focused on analyzing a selected dataset related to Netflix. The dataset includes a list of all the movies and TV shows available on Netflix, along with relevant details such as actors, directors, ratings, release years, and more.
+---
 
-## Dataset Columns
+# 🍿 Netflix Data Mining 📈
 
-The following columns are included in the dataset:
+Welcome to the *Netflix Data Mining Project*! Dive deep into the ocean of Netflix content and emerge with pearls of insights! With stunning visuals and detailed analysis, you will uncover how Netflix's content has evolved over time, which directors are dominating the platform, and even predict genres based on descriptions. 
 
-- `show_id`: A unique identifier for each movie/TV show.
-- `type`: The title of the movie/TV show.
-- `title`: Director of the movie.
-- `director`: Actors involved in the movie/TV show.
-- `cast`: The country where the movie/TV show was produced.
-- `country`: The date it was added to Netflix.
-- `date_added`: The actual release year.
-- `release_year`: The TV show/movie rating.
-- `rating`: The total duration, in minutes or number of seasons.
-- `duration`: The movie/TV show's category.
-- `listed_in`: Description.
+![output](https://github.com/mousavil/Netflix-Dataset-Analysis/assets/54477292/66e508e6-b0f2-44fc-bac8-0de01e6f1f4c)
 
-## Project Phases
 
-This project consists of three phases. The requirements for each phase are described below:
+## 🚀 Features
 
-### Phase 1
+1. **📅 Time Capsule**: Travel through time as you visualize the trend of movies and TV shows added to Netflix year by year.
+2. **🎬 Director's Cut**: Discover which directors have the Midas touch on Netflix.
+3. **🎨 Palette of Genres**: Decode the colorful spectrum of genres that Netflix offers.
+4. **🔍 Content Deep Dive**: Dive into the depths of content descriptions and surface with the most used words and themes.
+5. **🔗 Connect the Dots with Association Mining**: Discover hidden patterns and associations between different items.
+6. **🤖 AI-Powered Recommendations**: Ever wonder what genre a show might be based on its description? Let our model predict that for you!
 
-In this phase, a statistical comparison is performed between the number of movies for each director and the average number of movies for directors.
+## 🎨 Sneak Peek
 
-### Phase 2
+![output](https://github.com/mousavil/Netflix-Dataset-Analysis/assets/54477292/99602ca4-36fd-4886-8111-cb9cb6a8a965)
 
-In this phase, a pattern is extracted between "director" and "cast" with its genre "listed_in."
+The above graph is just a tease! Dive into the code to witness more such revealing insights.
 
-### Phase 3
+## 🛠 Getting Started
 
-In this phase, the dataset is categorized by assuming that "listed_in" is the label so that the movie genre ("label") can be predicted based on the description for test data.
+### Prerequisites
 
-## Conclusion
+- **Python** (Version 3.8 or newer)
+- **Essential Libraries**: 
+  - pandas
+  - matplotlib
+  - seaborn
+  - wordcloud
+  - warnings
+  - mlxtend
+  - nltk
+  - re
+  - sklearn
 
-Overall, this project aims to provide insights into the Netflix dataset and extract meaningful patterns from it. By analyzing the dataset in different phases, we can gain a deeper understanding of the movies and TV shows available on Netflix and their associated metadata.
+### Setup & Run
+
+I recommend you to use jupyter notebook for running the sections of project 
+
+5. **Sit back, relax, and watch the magic unfold**.
+
+## 📦 Dataset
+
+Ensure your dataset (`netflix.csv`) includes:
+- `date_added`
+- `type` (Either 'Movie' or 'TV Show')
+- `director`
+- `cast`
+- `listed_in` (Genres)
+- `description`
+
+For optimal visuals and data insights.
